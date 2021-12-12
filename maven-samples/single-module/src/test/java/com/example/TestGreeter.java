@@ -29,7 +29,7 @@ public class TestGreeter {
 
   @Test
   public void greetShouldIncludeGreetingPhrase() {
-    String someone = "DevOps";
+    String someone = "DevOps, Jenkins";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
